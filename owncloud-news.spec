@@ -1,16 +1,16 @@
 %define		pkgname	news
 Summary:	The News app is a an RSS/Atom feed aggregator.
 Name:		owncloud-%{pkgname}
-Version:	1.001
-Release:	0.2
+Version:	1.201
+Release:	1
 License:	AGPL
 Group:		Development/Languages/PHP
 Source0:	http://apps.owncloud.com/CONTENT/content-files/158434-news.zip
-# Source0-md5:	f9a77ddf834e038f0fc4541af4929bfd
+# Source0-md5:	dce0e6bcbf61ecf252b80fabc042c891
 URL:		http://apps.owncloud.com/content/show.php/News?content=158434
 BuildRequires:	rpmbuild(macros) >= 1.461
 Requires:	owncloud >= 5.0.0
-Requires:	owncloud-appframework >= 0.101
+Requires:	owncloud-appframework >= 0.102
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
