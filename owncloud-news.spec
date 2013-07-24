@@ -9,7 +9,7 @@ Source0:	http://apps.owncloud.com/CONTENT/content-files/158434-news.zip
 # Source0-md5:	92739b07ff6ba3d9a984bac71e8c52c0
 URL:		http://apps.owncloud.com/content/show.php/News?content=158434
 BuildRequires:	rpmbuild(macros) >= 1.461
-Requires:	owncloud >= 5.0.0
+Requires:	owncloud >= 5.0.6
 Requires:	owncloud-appframework >= 0.102
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
